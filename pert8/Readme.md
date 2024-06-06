@@ -1,4 +1,4 @@
-#### BISNIS UNDERSTANDING TENTANG BISNIS GORENGAN
+# BISNIS UNDERSTANDING TENTANG BISNIS GORENGAN
 
 # Tujuan Utama:
 •	Menyediakan makanan ringan berkualitas dengan harga terjangkau untuk masyarakat luas.
