@@ -1,15 +1,21 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
-int main(){
+int main() {
     // Deklarasi variabel
+    string namaPembeli;
     int pilihan, totalPaket, banyak, hasil = 0;
-    char pilihanPaket, yesNo;
+    char yesNo;
     int pajak = 10; // Pajak 10%
     int x = 0;
     int totalSeluruhPesanan[100]; // Ukuran tetap array untuk menyimpan total setiap pesanan
-    
+
+    // Meminta pengguna memasukkan nama pembeli
+    cout << "Masukkan Nama Pembeli: ";
+    getline(cin, namaPembeli);
+
     // Menampilkan menu
     cout << "=================================================================================================================" << endl;
     cout << ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><>>>>>>>> GORENGAN DOA IBU <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<" << endl;
@@ -25,11 +31,11 @@ int main(){
 
     do {
         // Meminta pengguna memasukkan pilihan menu
-        cout << "Masukkan Menu Yang Di Pilih : ";
+        cout << "Masukkan Menu Yang Dipilih : ";
         cin >> pilihan;
 
         // Menentukan harga berdasarkan pilihan
-        switch(pilihan){
+        switch (pilihan) {
             case 1:
                 totalPaket = 2000;
                 break;
@@ -61,13 +67,14 @@ int main(){
         // Menanyakan apakah ada pesanan lain
         cout << "Apakah Ada Pesanan Lainnya (Y/N)? ";
         cin >> yesNo;
-    } while(yesNo == 'Y' || yesNo == 'y'); // Mengulangi jika masih ada pesanan
+    } while (yesNo == 'Y' || yesNo == 'y'); // Mengulangi jika masih ada pesanan
 
     // Menampilkan total pembayaran
     cout << "============================================ PEMBAYARAN =========================================================" << endl;
-    
+    cout << "Nama Pembeli: " << namaPembeli << endl;
+
     // Menghitung total pesanan
-    for(int i = 0; i < x; i++){
+    for (int i = 0; i < x; i++) {
         hasil = hasil + totalSeluruhPesanan[i];
     }
 
