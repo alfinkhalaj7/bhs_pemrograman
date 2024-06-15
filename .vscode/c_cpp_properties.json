@@ -1,0 +1,27 @@
+{
+    "configurations": [
+      {
+        "name": "linux-gcc-x64",
+        "includePath": [
+          "${workspaceFolder}/**"
+        ],
+        "compilerPath": "/usr/bin/gcc",
+        "cStandard": "c11",              // Set this to the desired C standard, e.g., "c11", "c99", etc.
+        "cppStandard": "c++17",          // Set this to the desired C++ standard, e.g., "c++11", "c++14", "c++17", "c++20", etc.
+        "intelliSenseMode": "linux-gcc-x64",
+        "compilerArgs": [
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-Wshadow",
+          "-Wformat=2",
+          "-Wcast-align",
+          "-Wconversion",
+          "-Wsign-conversion",
+          "-Wnull-dereference"
+        ]
+      }
+    ],
+    "version": 4
+  }
+  

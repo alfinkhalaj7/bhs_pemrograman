@@ -1,3 +1,0 @@
-# Pengenalan Bahasa Pemrograman
-
-Bahasa pemrograman adalah serangkaian instruksi yang ditulis oleh seorang programmer untuk mengarahkan komputer dalam menyelesaikan tugas tertentu. Bahasa ini memungkinkan manusia untuk berkomunikasi dengan mesin, sehingga mereka bisa merancang, mengembangkan, dan mengontrol program komputer. Dengan memanfaatkan bahasa pemrograman, berbagai perangkat lunak, aplikasi web, permainan, dan banyak aplikasi lainnya dapat dibuat.
